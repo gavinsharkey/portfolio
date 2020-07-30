@@ -1,11 +1,11 @@
 html {
-  background: url('/_MG_6490.jpg') no-repeat center fixed;
+  background: url('/portfolio/_MG_6490.jpg') no-repeat center fixed;
   background-size: cover;
 }
 
 @media screen and (max-width: 576px) {
   html {
-    background: url('/IMG_1227.jpg') no-repeat center fixed;
+    background: url('/portfolio/IMG_1227.jpg') no-repeat center fixed;
     background-size: cover;
   }
 }

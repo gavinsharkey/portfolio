@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="col-11 p-4 main-block d-flex flex-column flex-lg-row align-items-center">
       <div className="field">
-        <img className="img-fluid picture" width="300px" src='/IMG_6606.JPG' alt="Gavin Sharkey" />
+        <img className="img-fluid picture" width="300px" src='/portfolio/IMG_6606.JPG' alt="Gavin Sharkey" />
       </div>
       <div className="field my-2 mt-lg-0">
         <div className="my-2 border-bottom d-flex flex-column flex-lg-row align-items-center">
@@ -25,7 +25,7 @@ export default function Home() {
         <p className="text-center text-lg-left">Software Engineer | Full-Stack Developer | Proficiency in React, Rails, JavaScript, Ruby | Experience Building Web Applications</p>
         <div className="d-flex justify-content-around">
           <Link to="/about">About Me</Link>
-          <Link to="/about">Projects</Link>
+          <Link to="/projects">Projects</Link>
           <Link to="/contact">Contact</Link>
         </div>
       </div>
