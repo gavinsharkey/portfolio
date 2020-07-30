@@ -1,13 +1,41 @@
+html {
+  background: url('/_MG_6490.jpg') no-repeat center fixed;
+  background-size: cover;
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    background: url('/IMG_1227.jpg') no-repeat center fixed;
+    background-size: cover;
+  }
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: transparent;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.field {
+  margin: 0 0.5em
+}
+
+.picture {
+  border-radius: 5px;
+}
+
+.main-block {
+  background-color: #f6f6f6;
+  box-shadow: 0 1em 3em 0.5em;
+}
+
+.navbar-color {
+  background-color: #f6f6f6;
+}
+
