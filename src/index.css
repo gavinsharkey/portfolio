@@ -11,10 +11,16 @@ html {
 }
 
 body {
+  color: #222;
+  font-family: 'Quicksand', sans-serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: transparent;
+}
+
+body p {
+  color: #333;
 }
 
 code {
@@ -22,16 +28,34 @@ code {
     monospace;
 }
 
+.bar {
+  color: #f6f6f6;
+  border-radius: 0.5em;
+  height: 4em;
+  padding: 1.5em;
+  background-color: rgba(0.3, 0.3, 0.3, 0.5);
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+@media screen and (max-width: 576px) {
+  .bar {
+    display: none;
+  }
+}
+
 .field {
   margin: 0 0.5em
 }
 
 .picture {
-  border-radius: 5px;
+  border-radius: 0.5em;
 }
 
 .main-block {
   background-color: #f6f6f6;
+  border-radius: 0.5em;
+  margin-top: 3em;
   box-shadow: 0 1em 3em 0.5em;
 }
 
