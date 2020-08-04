@@ -1,11 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Github from './icons/Github'
 import LinkedIn from './icons/LinkedIn'
 
 export default function Home() {
   return (
-    <div className="col-11 p-4 main-block d-flex flex-column flex-lg-row align-items-center">
+    <div className="p-4 main-block d-flex flex-column flex-lg-row align-items-center">
       <div className="field">
         <img className="img-fluid picture" width="300px" src='/portfolio/IMG_6606.JPG' alt="Gavin Sharkey" />
       </div>
@@ -23,13 +22,8 @@ export default function Home() {
           </div>
         </div>
         <p className="text-center text-lg-left">Software Engineer | Full-Stack Developer | Proficiency in React, Rails, JavaScript, Ruby | Experience Building Web Applications</p>
-        <div className="d-flex justify-content-around">
-          <Link to="/about">About Me</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/contact">Contact</Link>
-        </div>
       </div>
-      
+      <small className="d-inline d-lg-none">{"Swipe To Navigate -->"}</small>
     </div>
   )
 }

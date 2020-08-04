@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function About() {
   return (
-      <div className="col-11 p-4 main-block d-flex flex-column flex-lg-row-reverse align-items-center">
-        <div className="field align-self-stretch">
+      <div className="p-4 main-block d-flex flex-column flex-lg-row-reverse align-items-center align-items-lg-start">
+        <div className="field">
           <img className="img-fluid picture" width="300px" src='/portfolio/IMG_6606.JPG' alt="Gavin Sharkey" />
         </div>
-        <div className="field mt-2 mt-lg-0 col-lg-8">
+        <div className="field mt-2 mt-lg-0 col-lg-10">
           <div className="border-bottom">
             <h2>About</h2>
           </div>

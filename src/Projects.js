@@ -3,7 +3,7 @@ import Project from './Project'
 
 export default function Projects() {
   return (
-    <div className='col-11 p-4 main-block d-flex flex-column'>
+    <div className='p-4 main-block d-flex flex-column'>
       <div className="border-bottom mb-3">
         <h2>Projects</h2>
       </div>
