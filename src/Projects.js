@@ -8,6 +8,11 @@ export default function Projects() {
         <h2>Projects</h2>
       </div>
       <Project
+        title="Portfolio Site"
+        subtitle="You're looking at it!"
+        github="https://github.com/gavinsharkey/portfolio"
+      />
+      <Project
         title='Disney Trip Planner'
         subtitle="A JavaScript/HTML app for planning a trip to Walt Disney World"
         github="https://github.com/gavinsharkey/disney-trip-js-project"
