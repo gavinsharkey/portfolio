@@ -44,13 +44,13 @@ function App() {
     <div className="main mx-3 mx-lg-5 mb-3">
       <div className="d-flex flex-row justify-content-center align-items-center">
         <div onClick={handlePageDown} className="bar">
-          {'<'}
+          <span>{'<'}</span>
         </div>
         <div onTouchStart={handleStartTouch} onTouchEnd={handleSwipe} className="d-flex flex-column justify-content-center align-items-stretch">
           <CurrentPage /> 
         </div>
         <div onClick={handlePageUp} className="bar">
-          {'>'}
+          <span>{'>'}</span>
         </div>
       </div>
     </div>
