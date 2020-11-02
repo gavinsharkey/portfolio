@@ -49,6 +49,28 @@ code {
   }
 }
 
+.navbar-menu {
+  z-index: 1;
+  background-color: white;
+  position: fixed;
+  padding: 0px;
+  right: 0px;
+  top: 0px;
+  width: 0px;
+  height: 100%;
+  overflow-x: hidden;
+  transition: all 500ms ease;
+}
+
+.navbar-menu.open {
+  width: 80%;
+  padding: 1em;
+}
+
+.navbar-menu-close span {
+  font-size: 1.5em;
+}
+
 .field {
   margin: 0 0.5em
 }
@@ -60,7 +82,7 @@ code {
 .main-block {
   background-color: #f6f6f6;
   border-radius: 0.5em;
-  margin-top: 3em;
+  /* margin-top: 3em; */
   box-shadow: 0 1em 3em 0.5em;
 }
 
