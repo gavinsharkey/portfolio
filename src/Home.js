@@ -23,7 +23,6 @@ export default function Home() {
         </div>
         <p className="text-center text-lg-left">Software Engineer | Full-Stack Developer | Proficiency in React, Rails, JavaScript, Ruby | Experience Building Web Applications</p>
       </div>
-      <small className="d-inline d-lg-none">{"Swipe To Navigate -->"}</small>
     </div>
   )
 }
